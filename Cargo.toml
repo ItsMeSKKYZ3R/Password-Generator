@@ -1,0 +1,12 @@
+[package]
+name = "password_generator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nwg = { version = "1.0.12", package = "native-windows-gui" }
+clap = { version = "3.2.18", features = ["cargo"] }
+native-windows-derive = "1.0.5"
+rand = "0.8"

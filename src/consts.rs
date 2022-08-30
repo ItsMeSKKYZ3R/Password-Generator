@@ -1,0 +1,1 @@
+pub const BITMAP: Option<&str> = Some("./images/logo.jpg");
